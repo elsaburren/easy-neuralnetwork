@@ -1,5 +1,5 @@
-#myNN.py
-#tested with Python3.7
+# myNN.py
+# tested with Python3.7
 
 import numpy as np
 
