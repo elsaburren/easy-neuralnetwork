@@ -1,4 +1,6 @@
-#myNN
+#myNN.py
+#tested with Python3.7
+
 import numpy as np
 
 def sigmoid(x):
@@ -60,12 +62,16 @@ def not_available():
 if __name__ == "__main__":
 
     def select_example(x):
-       return {
+        return {
             "a" : "example_3nodes_1feature",
             "b" : "example_sigmoid"
         }.get(x, "not_available")
     
-    example_input = input("Select the example :")
+    print("\nSo far, two examples are implemented")
+    print("\nExample a: plots the output of a network with one hidden layer, 3 nodes and 1 feature. The purpose is to illustrate what a graph of such a function can look like.")
+    print("\nExample b: a plot of a sigmoid function")
+    print("(see the script for the code of these examples)")
+    example_input = input("\nSelect the example (enter a or b) :")
     example_funct = select_example(example_input)
     locals()[example_funct]()
 
