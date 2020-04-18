@@ -10,7 +10,7 @@ def main():
     numb_obs = 10
     numb_hidden = 2
     W = np.ones(numb_hidden)
-    my_hidden = MyHiddenLayer(W,0)
+    my_hidden = MyHiddenLayer(W, 1)
     my_output = MyOutputLayer([-1, 1])
 
     x = np.linspace(-10,10,numb_obs)
