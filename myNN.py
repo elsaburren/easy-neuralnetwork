@@ -1,5 +1,6 @@
 # myNN.py
 # tested with Python3.7
+# author: Elsa Burren
 
 import numpy as np
 
